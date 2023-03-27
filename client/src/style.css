@@ -1,0 +1,713 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Mini Bar */
+.miniBar{
+    background-color: #ffeded;
+    height: 40px;
+    position: relative;
+}
+.miniBar .info{
+    justify-content: center;
+    width: 50%;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+.miniBar .info i{
+    color: #7c7c7c;
+    padding-left: 20px;
+}
+.miniBar .info p{
+    display: inline;
+    padding-left: 10px;
+    color: #7c7c7c;
+    font-size: 0.9rem;
+}
+.miniBar .socialIcons{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 50%;
+    text-align: right;
+}
+.miniBar .socialIcons i{
+    padding-right: 20px;
+    color: rgb(255, 154, 154);
+}
+
+.header img{
+    width: 140px;
+}
+
+
+/* Slide Show */
+.carousel-inner .slideImg{
+    width: 100%;
+    height: 600px; 
+    filter: brightness(40%);
+}
+.carousel{
+    position: relative;
+}
+.carousel .appointBtn{
+    position: absolute;
+    z-index: 1000;
+    left: 43%;
+    top: 40%;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 15px;
+    border: 3px solid white;
+    color: white;
+    font-weight: 500;
+}
+
+/* About */
+.about{
+    margin-top: 150px;
+}
+.about .container img{
+    width: 100%;
+    padding: 0px 20px;
+}
+.about .container .aboutInfo{
+    padding: 20px 30px;
+}
+.about .container h6{
+    font-weight: 500;
+    background-color: rgb(255, 225, 230);
+    color: palevioletred;
+    padding: 5px 10px;
+    display: inline;
+}
+.about .container h1{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.about .container p{
+    color: rgb(77, 77, 77);
+}
+.about .container .clientBox{
+    text-align: center;
+    background-color: rgb(255, 235, 238);
+    padding: 5px;
+    min-width: fit-content;
+}
+.about .container .clientBox h1{
+    color: palevioletred;
+}
+.about .container .clientBox h3{
+    color: rgb(85, 85, 85);
+    font-size: 1.3rem;
+}
+
+/* Services */
+.services{
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.services h6{
+    font-weight: 500;
+    background-color: rgb(255, 225, 230);
+    color: palevioletred;
+    padding: 5px 10px;
+    display: inline;
+}
+.services h1{
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.myCard{
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.myCard .imgbox{
+    position: relative;
+}
+.myCard .content{
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-450px);
+    opacity: 0;
+    transition: 0.3s;
+}
+.myCard:hover > .content{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+.serviceCard{
+    /* width: 300px; */
+    /* min-height: 500px; */
+    margin: 5px;
+    position: relative;
+    
+}
+.serviceCard .imgbox{
+    position: relative;
+    /* width: 100%; */
+    /* height: 100%; */
+
+}
+.serviceCard img{
+    width: 100%;
+    height: 100%;
+}
+.serviceCard .myContent{
+    position: absolute;
+    top: 0%;
+}
+
+/* Infinite Scroller Styling */
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .card img{
+    max-width: 100%;
+    max-height: 100%;
+    filter: brightness(80%);
+  }
+
+  .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
+  }
+  .card-body{
+    background-color: rgb(21, 21, 21);
+  } 
+  .card-body h5,p{
+    color: white;
+  }
+  .card-body .btn{
+    border: 1px solid white;
+    background-color: rgb(21, 21, 21);
+  }
+  .card-body a{
+    color: white;
+  }
+  .carousel-inner-infinte {
+    padding: 1em;
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #616161;
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  @media (min-width: 768px) {
+    .card img {
+      height: 11em;
+    }
+  }
+  /* Appointment */
+  .appointment{
+    position: relative;
+  }
+  .bg-image { 
+    width: 100%; 
+    height: 750px; 
+    background-image: url('./images/carousel-1.jpg'); 
+    background-size: 100% 100%;  
+    background-repeat: no-repeat;
+    filter: brightness(40%);
+    position: absolute;
+    z-index: -99;
+} 
+.servicesCheck h1{
+    color: white;
+    padding: 20px;
+}
+.servicesCheck .form-check{
+    margin-left: 25px;
+}
+.servicesCheck .form-check input{
+     font-size: 1.2rem;
+
+}
+.servicesCheck .form-check label{
+     color: white;
+     font-size: 1.2rem;
+}
+
+.form-container{
+    width: 100%;
+    max-width: 650px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 28px;
+    margin: 0px 28px;
+    border-radius: 10px;
+    /* box-shadow: inset -2px 2px 2px white; */
+}
+
+.form-title{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white !important;
+    /* text-shadow: 2px 2px 2px rgb(255, 255, 255); */
+    /* border-bottom: solid 1px white; */
+}
+
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.user-input-box:nth-child(2n){
+    justify-content: end;
+}
+
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+
+.user-input-box label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid rgb(222, 222, 222);
+    padding: 0 10px;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+}
+
+.gender-title{
+    color:white;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom: 1px solid white;
+}
+
+.gender-category{
+    margin: 15px 0;
+    color: white;
+}
+
+.gender-category label{
+    padding: 0 20px 0 5px;
+}
+
+.gender-category label,
+.gender-category input,
+.form-submit-btn input{
+    cursor: pointer;
+}
+
+.form-submit-btn{
+    margin-top: 40px;
+}
+
+.form-submit-btn input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border:none;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background: #f9a392;
+}
+.form-submit-btn input:hover{
+    /* background: rgba(56, 204, 93, 1); */
+    color: rgb(255, 255, 255);
+}
+
+@media(max-width: 600px){
+    .container{
+        min-width: 280px;
+    }
+
+    .user-input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+
+    .user-input-box:nth-child(2n){
+        justify-content: space-between;
+    }
+
+    .gender-category{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .main-user-info{
+        max-height: 380px;
+        overflow: auto;
+    }
+
+    .main-user-info::-webkit-scrollbar{
+        width: 0;
+    }
+}
+
+
+/* Open Hours */
+.openHour{
+    margin-top: 300px;
+}
+.openHour .container img{
+    width: 100%;
+    padding: 0px 20px;
+}
+.openHour .container .openHourTiming{
+    position: relative;
+}
+.openHourTiming .timingContent{
+    background-color: #fef1ef;
+    padding: 20px 30px;
+    top: 20%;
+    left: -30%;
+    position: absolute;
+}
+.openHour .container h6{
+    font-weight: 500;
+    background-color: #f9a392;
+    color: white;
+    padding: 5px 10px;
+    display: inline;
+}
+.openHour .container h1{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.openHour .container p{
+    color: rgb(77, 77, 77);
+    max-width: 80%;
+}
+.timingContent .timingDays{
+    font-weight: 500;
+}
+.timingContent .timingDays ul{
+
+    list-style-type: circle;
+    /* font-size: 1.2rem; */
+}
+.timingContent button{
+    background-color: #f9a392;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 500;
+    border: none;
+}
+
+/* Testimonial */
+.testimonial{
+    margin-top: 150px;
+}
+.testimonial .container img{
+    width: 100%;
+    padding: 0px 20px;
+}
+.testimonial .container h6{
+    font-weight: 500;
+    background-color: #fef1ef;
+    color: #f9a392;
+    padding: 5px 10px;
+    display: inline;
+}
+.testimonial .container h1{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.testimonial .card img{
+    filter: brightness(100%);
+    width: 30%;
+    height: 40%;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+.testimonial .card i{
+    font-size: 4rem;
+    margin-right: 40px;
+    /* margin-bottom: 20px; */
+
+}
+.testimonial .card{
+    max-height: 400px;
+}
+.testimonial .card .card-body{
+    background-color: white;
+}
+.testimonial .card .card-body h5{
+    color: black;
+}
+.testimonial .card .card-body p{
+    color: black;
+    max-width: 80%;
+}
+
+/* Spa Team */
+.spaTeam{
+    margin-top: 90px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.spaTeam h6{
+    font-weight: 500;
+    background-color: rgb(255, 225, 230);
+    color: palevioletred;
+    padding: 5px 10px;
+    display: inline;
+}
+.spaTeam h1{
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.spaTeam .teamMember{
+    padding: 10px;
+}
+.spaTeam .teamMember img{
+    width: 100%;
+}
+.spaTeam .teamMember .content{
+    background-color: #f9a392;
+    color: white;
+    padding: 10px 0px;
+}
+
+/* Price Plan */
+.pricePlan{
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("./images/carousel-2.jpg") no-repeat;
+    background-size: cover;
+}
+.pricePlan{
+    margin-top: 300px;
+}
+.pricePlan .container img{
+    width: 100%;
+    padding: 0px 20px;
+}
+.pricePlan .container .pricingList{
+    position: relative;
+}
+.pricingList .priceContent{
+    background-color: #fef1ef;
+    padding: 20px 30px;
+    top: 20%;
+    left: -30%;
+    position: absolute;
+}
+.priceContent .card{
+    /* width: 100%; */
+}
+.priceContent .card-body{
+    background-color: white;
+}
+.priceContent .card-body h5{
+    color: rgb(113, 113, 113);
+
+}
+.priceContent .card-body h5 span{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+}
+.priceContent .card-body h4{
+    display: inline-block;
+    font-size: 1.3rem;
+    margin-left: 20px;
+    color: #f9a392;
+    display: inline-block;
+}
+.priceContent .card-body hr{
+    color: #f9a392;
+    border: none;
+    height: 0px;
+    border-top: 1px solid black;
+}
+.priceContent .card-body .item i{
+    font-size: 1.5rem;
+    color: rgb(0, 185, 0);
+}
+.priceContent .card-body .item p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: rgb(136, 136, 136);
+    display: inline-block;
+    margin-left: 20px;
+}
+.priceContent .card-body button{
+    border: none;
+    background-color: #f9a392;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 500;
+}
+
+/* Footer Styling */
+.myFooter{
+    margin-top: 60px;
+    background-color: #211e1c;
+}
+.myFooter .myBox1{
+    background-color: #211e1c;
+    padding: 50px 0;
+}
+.myFooter .myBox1 img{
+    width: 140px;
+}
+.myFooter .myBox1 p{
+    margin: 20px 5px;
+    color: #c8c8c8;
+    font-weight: 400;
+}
+.myFooter .myBox1 .withLogo{
+    margin-top: 10px;
+}
+.myFooter .myBox1 .withLogo i{
+    color: #c8c8c8;
+}
+.myFooter .myBox1 .withLogo p{
+    display: inline;
+    font-weight: 400;
+}
+.myFooter .socialBtns{
+    margin: 20px 0px;    
+}
+.myFooter .socialBtns .Btn{
+    display: inline-block;
+    background-color: #f67a62;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    text-align: center;
+}
+.myFooter .socialBtns .Btn i{
+    color: white;
+    font-size: 1.5rem;
+    margin-top: 30%;
+}
+.myFooter .myBox2 .links{
+    margin-top: 60px;
+    color: rgb(235, 235, 235);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* My Media Quries */
+@media only screen and (max-width: 990px) {
+    .miniBar{
+        display: none;
+    }
+    .carousel-inner img{
+        overflow: auto;
+        width: auto;
+    }
+    .carousel .appointBtn{
+        left: 40%;
+    }
+    .priceContent .card-body .item i{
+        font-size: 1.2rem;
+    }
+    .priceContent .card-body .item p{
+        font-size: 1rem; 
+    }
+    .pricePlan{
+        height: 850px;
+    }
+    .openHour{
+        height: 450px;
+    }
+  }
+
+  @media only screen and (max-width: 765px) {
+    .openHourTiming .timingContent{
+        margin: 20px 20px;
+        top: 50%;
+        left: 0%;
+    }
+    .openHour{
+        height: 900px;
+    }
+    .pricingList .priceContent{
+        margin: 20px 20px;
+        top: 50%;
+        left: 0%;
+    }
+    .pricePlan{
+        height: 1400px;
+    }
+    .bg-image{
+        height: 850px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .carousel .appointBtn{
+        left: 28%;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .pricingList .priceContent{
+        width: 95%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
