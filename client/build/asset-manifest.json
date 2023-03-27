@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.468cbc25.css",
+    "main.js": "/static/js/main.1748922b.js",
+    "static/js/787.0f70e8d4.chunk.js": "/static/js/787.0f70e8d4.chunk.js",
+    "static/media/carousel-1.jpg": "/static/media/carousel-1.0d81a2051b41112b8f09.jpg",
+    "static/media/carousel-2.jpg": "/static/media/carousel-2.65aefe1e2ffaa693e77d.jpg",
+    "static/media/carousel-3.jpg": "/static/media/carousel-3.242b223cac1f2ba2c6d2.jpg",
+    "static/media/pricing.jpg": "/static/media/pricing.0a8c0b754f30153b014f.jpg",
+    "static/media/opening.jpg": "/static/media/opening.ad0137b975c146f2d558.jpg",
+    "static/media/team-3.jpg": "/static/media/team-3.24473d99c4b78f2a5ab0.jpg",
+    "static/media/about.jpg": "/static/media/about.78c26dbc353894ccdabb.jpg",
+    "static/media/testimonial.jpg": "/static/media/testimonial.69f076d60a1fb67779d3.jpg",
+    "static/media/service-3.jpg": "/static/media/service-3.483b33a1f58553e81357.jpg",
+    "static/media/selfshine.png": "/static/media/selfshine.a1b9d1f29bb2f334e93d.png",
+    "static/media/team-1.jpg": "/static/media/team-1.09ee37a70953f7ae0e93.jpg",
+    "static/media/team-4.jpg": "/static/media/team-4.e0b25d77fa350273cf3d.jpg",
+    "static/media/team-2.jpg": "/static/media/team-2.4573fd706d23b9118527.jpg",
+    "static/media/service-2.jpg": "/static/media/service-2.7e35d8b11b649e9823de.jpg",
+    "static/media/service-6.jpg": "/static/media/service-6.67123483598e317d779a.jpg",
+    "static/media/service-1.jpg": "/static/media/service-1.bad43195f44f6b29c8d6.jpg",
+    "static/media/service-5.jpg": "/static/media/service-5.cee6e7bfd30db79807c5.jpg",
+    "static/media/service-4.jpg": "/static/media/service-4.8bdecc7c863fb863929f.jpg",
+    "index.html": "/index.html",
+    "main.468cbc25.css.map": "/static/css/main.468cbc25.css.map",
+    "main.1748922b.js.map": "/static/js/main.1748922b.js.map",
+    "787.0f70e8d4.chunk.js.map": "/static/js/787.0f70e8d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.468cbc25.css",
+    "static/js/main.1748922b.js"
+  ]
+}
